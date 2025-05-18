@@ -2,6 +2,11 @@
 AirGestures is a simple python project that uses MediaPipe and OpenCV to detect real-time hand gestures and translate them into desktop actions like copying, pasting, and dragging windows.
 
 ---
+## 🎥 Demo
+
+![AirGestures Demo](./demo.gif)
+
+---
 ## Requirements
 ```txt
 mediapipe==0.10.9
@@ -27,4 +32,3 @@ pip install mediapipe==0.10.9 opencv-python pyautogui pygetwindow
 >- Windows: ✅ Fully supported
 >- macOS: ⚠️ Drag may not work out-of-the-box due to strict windowing system
 >- Linux: ⚠️ Requires X11-based environments; may not work reliably on Wayland
-
